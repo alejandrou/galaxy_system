@@ -29,7 +29,7 @@ El trabajo se basa en hacer un sistema planetario en el programa Processing.
 
 ## Decisiones adoptadas
 
-Las mayores decisiones tomadas y las que mas pruebas requirieron fue ajustar los planetas a angulos velocidad y distancias distinguibles y ajustar las imágenes con los radios de la esfera.
+Las mayores decisiones tomadas y las que mas pruebas requirieron fue ajustar los planetas a angulos velocidad y distancias distinguibles y ajustar las imágenes con los radios de las esferas
 
 
 * Método que permite crear los planetas con forma de esfera que luego permitirá cargar las imágenes con la función setTexture().

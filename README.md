@@ -36,39 +36,38 @@ Las mayores decisiones tomadas y las que mas pruebas requirieron fue ajustar los
   ```
   void drawSolarSystem(){
   
-  beginShape();
+    beginShape();
   
-  sun = createShape(SPHERE,60);
-  sun.setStroke(255);
-  sun.setTexture(sunImage);
+    sun = createShape(SPHERE,60);
+    sun.setStroke(255);
+    sun.setTexture(sunImage);
   
-  earth = createShape(SPHERE,12);
-  earth.setStroke(255);
-  earth.setTexture(earthImage);
+    earth = createShape(SPHERE,12);
+    earth.setStroke(255);
+    earth.setTexture(earthImage);
   
-  mercury = createShape(SPHERE,8);
-  mercury.setStroke(255);
-  mercury.setTexture(mercuryImage);
+    mercury = createShape(SPHERE,8);
+    mercury.setStroke(255);
+    mercury.setTexture(mercuryImage);
   
-  venus = createShape(SPHERE,15);
-  venus.setStroke(255);
-  venus.setTexture(venusImage);
+    venus = createShape(SPHERE,15);
+    venus.setStroke(255);
+    venus.setTexture(venusImage);
   
-  moon = createShape(SPHERE,5);
-  moon.setStroke(255);
-  moon.setTexture(moonImage);
+    moon = createShape(SPHERE,5);
+    moon.setStroke(255);
+    moon.setTexture(moonImage);
   
-  jupiter = createShape(SPHERE,20);
-  jupiter.setStroke(255);
-  jupiter.setTexture(jupiterImage);
+    jupiter = createShape(SPHERE,20);
+    jupiter.setStroke(255);
+    jupiter.setTexture(jupiterImage);
   
-  mars = createShape(SPHERE,20);
-  mars.setStroke(255);
-  mars.setTexture(marsImage);
+    mars = createShape(SPHERE,20);
+    mars.setStroke(255);
+    mars.setTexture(marsImage);
   
-  endShape();
-  
-}
+    endShape();  
+  }
 * Método que hace girar sobre un eje de rotación alrededor de un punto, en este caso el sol, con cierta velocidad y distancia respecto a las otras esferas.
 
   ```

@@ -31,6 +31,7 @@ El trabajo se basa en hacer un sistema planetario en el programa Processing.
 
 Las mayores decisiones tomadas y las que mas pruebas requirieron fue ajustar los planetas a angulos velocidad y distancias distinguibles y ajustar las imágenes con los radios de la esfera.
 
+
 * Método que permite con el ratón dibujar añadiendo los puntos creados a la clase Coordenadas pudiendo luego crear la figura usando el método "mainAlgorhtm".
   ```
   void drawSolarSystem(){
@@ -66,7 +67,8 @@ Las mayores decisiones tomadas y las que mas pruebas requirieron fue ajustar los
   mars.setTexture(marsImage);
   
   endShape();
- }
+  
+}
 * Método principal del algoritmo de superficie de revolución.
 
   ```
@@ -131,7 +133,6 @@ Las mayores decisiones tomadas y las que mas pruebas requirieron fue ajustar los
     popMatrix();
   }
   ```
-
  <p align="center"><img src="images/image.png" alt="gamePlay" width="300" height="300"></br>Pantalla final</p>
  
 

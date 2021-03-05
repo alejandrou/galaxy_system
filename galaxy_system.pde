@@ -130,9 +130,9 @@ void setup()
   jupiterImage = loadImage("./images/jupiter.png");
   drawSolarSystem();
   
-  ficherogif = new GifMaker(this, "sistema_solar.gif");
+  /*ficherogif = new GifMaker(this, "sistema_solar.gif");
   ficherogif.setRepeat(0);
-  ficherogif.setTransparent(0,0,0);
+  ficherogif.setTransparent(0,0,0);*/
   
 }
 
@@ -143,6 +143,6 @@ void draw()
   translate(width/2,height/2);
   setSolarSystemRotatio();
   
-  ficherogif.setDelay(1);
-  ficherogif.addFrame();
+  /*ficherogif.setDelay(1);
+  ficherogif.addFrame();*/
 }

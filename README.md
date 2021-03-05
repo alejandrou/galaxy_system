@@ -32,7 +32,7 @@ El trabajo se basa en hacer un sistema planetario en el programa Processing.
 Las mayores decisiones tomadas y las que mas pruebas requirieron fue ajustar los planetas a angulos velocidad y distancias distinguibles y ajustar las imágenes con los radios de la esfera.
 
 
-* Método que permite con el ratón dibujar añadiendo los puntos creados a la clase Coordenadas pudiendo luego crear la figura usando el método "mainAlgorhtm".
+* Método que permite crear los planetas con forma de esfera que luego permitirá cargar las imágenes con la función setTexture().
   ```
   void drawSolarSystem(){
   
@@ -69,7 +69,7 @@ Las mayores decisiones tomadas y las que mas pruebas requirieron fue ajustar los
   endShape();
   
 }
-* Método principal del algoritmo de superficie de revolución.
+* Método que hace girar sobre un eje de rotación alrededor de un punto, en este caso el sol, con cierta velocidad y distancia respecto a las otras esferas.
 
   ```
   void setSolarSystemRotatio(){

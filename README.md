@@ -66,8 +66,7 @@ Las mayores decisiones tomadas y las que mas pruebas requirieron fue ajustar los
   mars.setTexture(marsImage);
   
   endShape();
-  
-}
+ }
 * Método principal del algoritmo de superficie de revolución.
 
   ```

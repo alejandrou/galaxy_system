@@ -132,17 +132,13 @@ Las mayores decisiones tomadas y las que mas pruebas requirieron fue ajustar los
     popMatrix();
   }
   ```
- <p align="center"><img src="images/image.png" alt="gamePlay" width="300" height="300"></br>Pantalla final</p>
+ <p align="center"><img src="images/sistema_solar.png" alt="Sistema Solar" width="300" height="300"></br>Pantalla final</p>
  
 
 
 ## Referencias
 
 Para ayudarme en la realización de esta aplicación usé básicamente la API que te proporciona [Processing](https://www.processing.org/).
-
-Además de entender la definición de superficie de revolución para poder realizar correctamente el algoritmo que genere la figura.
-
-* [Wikipedia](https://es.wikipedia.org/wiki/S%C3%B3lido_de_revoluci%C3%B3n).
 
 * [Documentación de clase](https://ncvt-aep.ulpgc.es/cv/ulpgctp21/pluginfile.php/412240/mod_resource/content/40/CIU_Pr_cticas.pdf).
 

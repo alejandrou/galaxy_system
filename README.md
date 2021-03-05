@@ -152,4 +152,4 @@ Para ayudarme en la realización de esta aplicación usé básicamente la API qu
 Añado un GIF con el resultado de la aplicación final con el sistema planetario.
 
   * Resultado
-  <p align="center"><img src="images/figure.gif" alt="Figura" width="300" height="300"></br>Gif resultado final</p>
+  <p align="center"><img src="images/sistema_solar.gif" alt="Figura" width="300" height="300"></br>Gif resultado final</p>
